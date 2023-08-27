@@ -1,0 +1,40 @@
+header {
+    background-color: gray;
+    display: flex;
+    border-bottom: $bordes;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    img {
+        width: 10rem;
+        cursor: pointer;
+       
+    }
+
+    h1 {
+        color: $colorTitulos;
+    }
+    ul {
+        font-size: 1.5rem;
+        padding-left: 2rem;
+        text-transform: uppercase;
+    }
+
+    li {
+        list-style-type: none;
+        display: inline-block;
+        margin-left: $margen;
+    }
+    .fuentes li a:hover {
+        background-color: cadetblue;
+        color: #fff;
+        
+
+    }
+
+    a {
+        text-decoration: none;
+    }
+}

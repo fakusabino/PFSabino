@@ -1,0 +1,163 @@
+header {
+  background-color: gray;
+  display: flex;
+  border-bottom: 1px solid black;
+  justify-content: space-between;
+  align-items: center;
+}
+header img {
+  width: 10rem;
+  cursor: pointer;
+}
+header h1 {
+  color: black;
+}
+header ul {
+  font-size: 1.5rem;
+  padding-left: 2rem;
+  text-transform: uppercase;
+}
+header li {
+  list-style-type: none;
+  display: inline-block;
+  margin-left: 10px;
+}
+header .fuentes li a:hover {
+  background-color: cadetblue;
+  color: #fff;
+}
+header a {
+  text-decoration: none;
+}
+
+footer {
+  position: sticky;
+  top: 100%;
+}
+
+.Pie {
+  background-color: gray;
+}
+
+h2 {
+  background-color: cadetblue;
+  color: #000000;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 1rem;
+  font-size: 3rem;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Quicksand", sans-serif;
+}
+
+.container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  padding: 20px 100px;
+}
+
+.container:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.contenido-caja {
+  max-width: 850px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr) justify-content center;
+  align-items: center;
+  text-align: center;
+  box-shadow: 0px 0px 19px 5px rgba 0, 0, 0, 0.19;
+}
+
+.izquierda {
+  height: 100%;
+}
+
+.derecha {
+  padding: 25px 40px;
+}
+
+h2 {
+  position: relative;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+h2:after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  height: 4px;
+  width: 50px;
+  border-radius: 2px;
+}
+
+.campo {
+  width: 100%;
+  padding: 0.5rem 1rem;
+  outline: none;
+  border: 2px solid rgba(0, 0, 0, 0);
+  background-color: rgba(230, 230, 230, 0.6);
+  font-size: 1.1rem;
+  margin-bottom: 22px;
+  transition: 0.3s;
+}
+
+.campo:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.campo:focus {
+  background-color: #fff;
+  border: 2px solid rgba 30, 85, 250, 0.47;
+}
+
+.area {
+  min-height: 150px;
+}
+
+.btn {
+  width: 100%;
+  padding: 0.5rem 1rem;
+  font-size: 1.1rem;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  color: #fff;
+  background-color: cadetblue;
+  transition: 0.3s;
+}
+
+body {
+  min-height: 100vh;
+  overflow-x: hidden;
+  width: 100%;
+  background-color: aquamarine;
+}
+
+.slide img {
+  height: 65vh;
+}
+
+.carousel-inner {
+  background-color: CadetBlue;
+}
+
+/*# sourceMappingURL=estilo.css.map */
